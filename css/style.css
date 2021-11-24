@@ -1,0 +1,505 @@
+/* open-sans-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v23-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/open-sans-v23-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v23-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v23-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v23-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v23-latin_cyrillic-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-italic - latin_cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v23-latin_cyrillic-italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/open-sans-v23-latin_cyrillic-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v23-latin_cyrillic-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v23-latin_cyrillic-italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v23-latin_cyrillic-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v23-latin_cyrillic-italic.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/open-sans-v23-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/open-sans-v23-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v23-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v23-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v23-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v23-latin_cyrillic-700.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+
+/* Обнуление */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* Общие стили страницы */
+
+body {
+	font-family: 'Open Sans';
+	background-color: black;
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+header {
+	background-color: #794;
+}
+.homework {
+	text-align: center;
+	padding: 20px;
+	font-size: 28px;
+}
+.homework p {
+	font-style: italic;
+	display: inline-block;
+}
+
+
+main {
+	color: #fff;
+	margin-bottom: 20px;
+}
+h1 {
+	text-align: center;
+	padding: 20px;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 0.8px;
+	line-height: 1.4;
+}
+
+h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-top: 32px;
+	margin-bottom: 18px;
+	text-align: center;
+}
+
+
+.text {
+	font-size: 1px;
+}
+
+.img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.copy {
+	margin: 20px 0 0 0;
+}
+
+footer {
+	background-color: #778d;
+	text-align: center;
+	padding: 32px;
+	font-size: 18px;
+}
+
+.free {
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+.link-item {
+	margin: 20px 0 0 0;
+}
+.link {
+	font-size: 40px;
+	margin: 20px 0 0 0;
+	color: #fff;
+}
+
+
+/* LESSON 7*/
+
+.title {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 1.7;
+	letter-spacing: 6px;
+}
+.block {
+	border: 2px solid #FFA244;
+	box-shadow: 0px 0px 25px 25px #FFA244;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.element > div {
+	display: inline-block;
+}
+
+.color {
+	margin: 100px 0 100px 0;
+}
+.name {
+	text-align: center;
+}
+.color-block {
+	margin: 50px 0 100px 0;
+}
+.color-block div p {
+	visibility: hidden;
+}
+.color-block div {
+	max-width: 210px;
+	min-height: 300px;
+	vertical-align: top;
+	margin: 0 0 0 33px;
+}
+
+.color-1 {
+	background-color: silver;
+}
+.color-2 {
+	background-color: yellow;
+}
+.color-3 {
+	background-color: rgb(150, 63, 63);
+}
+.color-4 {
+	background-color: rgb(46, 176, 59);
+}
+.color-5 {
+	background-color: rgba(63, 97, 166, 0.8);
+}
+.color-1:hover, .color-2:hover,
+.color-3:hover, .color-4:hover,
+.color-5:hover {
+	opacity: 0.5;
+	transition: all 0.5s ease 0s;
+}
+.text-block {
+	margin: -70px 0 70px 0;
+}
+
+.text-1 {
+	margin: 0px 0 0 120px;
+}
+.text-2 {
+	margin: 0 0 0 200px;
+}
+.text-3 {
+	margin: 0 0 0 150px;
+}
+.text-4 {
+	margin: 0 0 0 130px;
+}
+.text-5 {
+	margin: 0 0 0 120px;
+}
+
+.img {
+	margin: 100px 0 100px 0;
+}
+.name-1 {
+	text-align: center;
+}
+.img-block {
+	margin: 100px 0 100px 0;
+	text-align: center;
+}
+.img-block div {
+	min-height: 300px;
+	vertical-align: top;
+	margin: 0 0 40px 33px;
+	min-width: 500px;
+	border-radius: 20px;
+}
+.img-block div p {
+	font-size: 20px;
+	letter-spacing: 5px;
+	padding: 10px 0 0 0;
+}
+.img-1 {
+	background: url(../img/line.jpg);
+}
+.img-2 {
+	background: url(../img/snow.jpg);
+}
+.img-3 {
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,86,9,1) 35%, rgba(0,212,255,1) 100%);
+}
+.img-4 {
+	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(46,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.img-5 {
+	background: linear-gradient(0deg, rgba(59,195,34,0.7343312324929971) 0%, rgba(253,187,45,0.31976540616246496) 100%), url("../img/goose.png");
+}
+.img-1:hover, .img-2:hover,
+.img-3:hover, .img-4:hover {
+	opacity: 0.5;
+	transition: all 0.5s ease 0s;
+}
+.img-5:hover {
+	background-image: url("../img/goose.png");
+	transition: all 0.5s ease 0s;
+}
+.repeat {
+	margin: 100px 0 100px 0;
+}
+
+.name-2 {
+	text-align: center;
+}
+.title {}
+.repeat-block {
+	text-align: center;
+	margin: 100px 0 100px 0;
+}
+.repeat-block div {
+	vertical-align: top;
+	margin: 0 0 40px 33px;
+	border-radius: 20px;
+}
+.repeat-block div p {
+	padding: 10px;
+}
+
+.repeat-1 {
+	min-width: 1100px;
+	background-image: url(../img/goose200.jpg);
+	color: red;
+	font-size: 20px;
+	min-height: 300px;
+}
+.repeat-2 {
+	min-width: 1100px;
+	background: url(../img/goose200.jpg) no-repeat;
+	background-position: center;
+	box-shadow: 0px 0px 10px 10px #fff;
+	font-size: 18px;
+	min-height: 300px;
+}
+.repeat-3 {
+	min-width: 1100px;
+	background: url(../img/goose200.jpg) repeat-x;
+	background-position: 30px 70px;
+	box-shadow: 0px 0px 10px 10px #fff;
+	min-height: 300px;
+}
+.repeat-4 {
+	min-width: 1100px;
+	background: url(../img/goose200.jpg) 30px 70px repeat-y, url(../img/goose200.jpg) 870px 150px repeat-y;
+	box-shadow: 0px 0px 10px 10px #fff;
+	font-size: 32px;
+	min-height: 300px;
+}
+.repeat-5 {
+	min-width: 1100px;
+	min-height: 700px;
+	background: url(../img/goose200.jpg) 100% 100% no-repeat, url(../img/goose200.jpg) left 100% no-repeat, url(../img/goose200.jpg) left 0% no-repeat, url(../img/goose200.jpg) right 0% no-repeat;
+	box-shadow: 0px 0px 10px 10px #fff;
+	font-size: 32px;
+}
+.repeat-5 p {
+	margin: 300px 0 0 0;
+}
+.repeat-6 {
+	min-width: 1100px;
+	min-height: 300px;
+	box-shadow: 0px 0px 10px 10px #fff;
+	background: url(../img/goose200.jpg) 50px 50px space;
+}
+.repeat-7 {
+	min-width: 1100px;
+	min-height: 300px;
+	box-shadow: 0px 0px 10px 10px #fff;
+	background: url(../img/goose200.jpg) round;
+	color: red;
+}
+
+.size {
+	margin: 100px 0 100px 0;
+}
+
+.name-3 {
+	text-align: center;
+}
+
+.size-block {
+	text-align: center;
+	margin: 100px 0 100px 0;
+}
+
+.size-block div {
+	vertical-align: top;
+	margin: 0 0 40px 33px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 10px #fff;
+}
+.size-1 {
+	min-width: 1100px;
+	min-height: 300px;
+	background-image: url("../img/cry.png");
+	background-size: 100% auto;
+}
+.size-2 {
+	min-width: 1100px;
+	min-height: 300px;
+	background-image: url("../img/cry.png");
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.size-3 {
+	min-width: 1100px;
+	min-height: 300px;
+	background-image: url("../img/cry.png");
+	background-size: 100% 100%;
+}
+.size-4 {
+	min-width: 1100px;
+	min-height: 300px;
+	background-image: url("../img/cry.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.size-5 {
+	min-width: 1100px;
+	min-height: 300px;
+	background-image: url("../img/cry.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: red;
+	font-size: 30px;
+}
+.size-6 {
+	min-width: 1100px;
+	min-height: 300px;
+	background-image: url("../img/cry.png");
+	background-size: 800px 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.size-7 {
+	min-width: 1100px;
+	min-height: 300px;
+	background-image: url("../img/cry.png");
+}
+.size-1:hover, .size-2:hover,
+.size-3:hover, .size-4:hover,
+.size-5:hover, .size-6:hover {
+	filter: sepia(50%);
+	transition: all 0.5s ease 0s;
+}
+.attach {
+	margin: 100px 0 100px 0;
+}
+
+.name-4 {
+	text-align: center;
+}
+
+.attach-block {
+	text-align: center;
+	margin: 100px 0 100px 0;
+}
+.attach-block div {
+	vertical-align: top;
+	margin: 0 0 40px 33px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 10px #fff;
+}
+
+.attach-1 {
+	min-width: 1100px;
+	min-height: 300px;
+	background-image: url("../img/village.png");
+}
+.attach-2 {
+	min-width: 1100px;
+	min-height: 300px;
+	background-image: url("../img/village.png");
+	background-attachment: fixed;
+}
+.attach-3 {
+	min-width: 1100px;
+	max-height: 300px;
+	background-image: url("../img/village.png");
+	background-attachment: local;
+	overflow: auto;
+}
+.attach-3 span {
+	display: inline-block;
+	font-size: 50px;
+}
+
+.list {
+	margin: 0 0 70px 0;
+}
+.list ul {
+	padding: 20px;
+	list-style: none;
+}
+
+.list ul li {
+	margin: 0px 0px 20px 0px;
+	font-size: 32px;
+	min-height: 80px;
+	background: url(../img/gooselist.jpg) 40% 0 / 50px no-repeat;
+	padding: 0px 0px 25px 30px;
+}
+
+
+
+
